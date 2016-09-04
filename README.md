@@ -7,7 +7,8 @@ The module aims to maintain usual gnuplot commands.
 
 ## Example:
 
-<pre>
+
+```python
  import gppy<br>
  from math import sin<br>
  g = gppy.gppy()<br>
@@ -17,7 +18,7 @@ The module aims to maintain usual gnuplot commands.
  g.adddata(x,y) #add the data<br>
  g.write("set title 'Example'") #optional command<br>
  g.shoot() #execute the plot<br>
- </pre>
+ ```
  
 ## Installation:
  In general you can just have the module living in your project folder.

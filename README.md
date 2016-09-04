@@ -9,15 +9,15 @@ The module aims to maintain usual gnuplot commands.
 
 
 ```python
- import gppy<br>
- from math import sin<br>
- g = gppy.gppy()<br>
- x = [i/100. for i in range(0,314)]<br>
- y = [sin(i) for i in x]<br>
- g.addplot("'-' u 1:2 w lines") # include one more plot. '-' is needed if using addplot and adddata<br>
- g.adddata(x,y) #add the data<br>
- g.write("set title 'Example'") #optional command<br>
- g.shoot() #execute the plot<br>
+import gppy
+from math import sin
+g = gppy.gppy()
+x = [i/100. for i in range(0,314)]
+y = [sin(i) for i in x]
+g.addplot("'-' u 1:2 w lines") # include one more plot. '-' is needed if using addplot and adddata
+g.adddata(x,y) #add the data
+g.write("set title 'Example'") #optional command
+g.shoot() #execute the plot
  ```
  
 ## Installation:

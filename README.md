@@ -18,6 +18,5 @@ Example:
  g.write("set title 'Example'") #optional command<br>
  g.write("set terminal wxt") ##optional command<br>
  g.shoot() #execute the plot<br>
- g.write("pause -1")<br>
  </pre>
 

@@ -27,8 +27,8 @@ g.shoot() #execute the plot
  Copy the file in :
  /home/user/.local/lib/python2.7/site-packages/
  
- ## Notes
- To keep having the control buttons working on Gnuplot there are two options:
- 1/ add raw_input() at the end of the script
- 2/ Run the script using python -i myscript.py
+## Notes
+To keep having the control buttons working on Gnuplot there are two options:
+1/ add raw_input() at the end of the script
+2/ Run the script using python -i myscript.py
 

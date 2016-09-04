@@ -5,7 +5,7 @@ Simple and efficient module to generate gnuplot plots using python.
 
 The module aims to maintain usual gnuplot commands.
 
-Example:
+## Example:
 
 <pre>
  import gppy<br>
@@ -19,10 +19,10 @@ Example:
  g.shoot() #execute the plot<br>
  </pre>
  
- Installation:
+## Installation:
  In general you can just have the module living in your project folder.
  
- Ubuntu: 
+### Ubuntu: 
  Copy the file in :
  /home/user/.local/lib/python2.7/site-packages/
 
